@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .Container{
+            width: 800px;
+            border: 1px solid black;
+            margin:auto;
+        }
+        #outerCard{
+            display:flex;
+            flex-flow: wrap;
+        }
+        #card{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin:30px;
+            
+        }
+        #colorItems {
+            width: 100%;
+            margin-left: 45px;
+        }
+        #colorItems > span {
+            /* padding: auto; */
+            border: 1px solid grey;
+            /* margin: auto; */
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div id="outerCard">
+            <!-- <h4 style="text-align: center;">htmw</h4> -->
+        </div>
+    </div>
+</body>
+<script>
+    fetch("https://www.colourlovers.com/api/colors/new?format=json")
+    .then(function (response){
+        return response.json();
+    })
+    .then(function (data){
+        let Value = document.getElementById("outerCard");
+        let out = "";
+
+        for(let i of data){
+            out +=`
+            <div id="card">
+                <h4 style="text-align: center">${i.title}</h4>
+                <div id="colorItems">
+                    <img src=${i.imageUrl}/>
+                </div>
+            </div>`
+        }
+        Value.innerHTML = out;  
+    })
+</script>
+</html>

@@ -1,0 +1,83 @@
+[
+    {
+        "id": 10285267,
+        "title": "közép zöld",
+        "userName": "Bixi10",
+        "numViews": 6,
+        "numVotes": 0,
+        "numComments": 0,
+        "numHearts": 0,
+        "rank": 0,
+        "dateCreated": "2024-10-15 03:06:41",
+        "hex": "206824",
+        "rgb": {
+            "red": 32,
+            "green": 104,
+            "blue": 36
+        },
+        "hsv": {
+            "hue": 123,
+            "saturation": 69,
+            "value": 41
+        },
+        "description": "",
+        "url": "http://www.colourlovers.com/color/206824/közép_zöld",
+        "imageUrl": "http://www.colourlovers.com/img/206824/100/100/közép_zöld.png",
+        "badgeUrl": "http://www.colourlovers.com/images/badges/c/10285/10285267_kzp_zld.png",
+        "apiUrl": "http://www.colourlovers.com/api/color/206824"
+    },
+    {
+        "id": 10285266,
+        "title": "Sötét zöld",
+        "userName": "Bixi10",
+        "numViews": 5,
+        "numVotes": 0,
+        "numComments": 0,
+        "numHearts": 0,
+        "rank": 0,
+        "dateCreated": "2024-10-15 03:06:39",
+        "hex": "103412",
+        "rgb": {
+            "red": 16,
+            "green": 52,
+            "blue": 18
+        },
+        "hsv": {
+            "hue": 123,
+            "saturation": 69,
+            "value": 20
+        },
+        "description": "",
+        "url": "http://www.colourlovers.com/color/103412/Sötét_zöld",
+        "imageUrl": "http://www.colourlovers.com/img/103412/100/100/Sötét_zöld.png",
+        "badgeUrl": "http://www.colourlovers.com/images/badges/c/10285/10285266_Stt_zld.png",
+        "apiUrl": "http://www.colourlovers.com/api/color/103412"
+    },
+    {
+        "id": 10285264,
+        "title": "snakes and dragons",
+        "userName": "marangpi",
+        "numViews": 5,
+        "numVotes": 0,
+        "numComments": 0,
+        "numHearts": 0,
+        "rank": 0,
+        "dateCreated": "2024-10-13 10:14:27",
+        "hex": "49886D",
+        "rgb": {
+            "red": 73,
+            "green": 136,
+            "blue": 109
+        },
+        "hsv": {
+            "hue": 154,
+            "saturation": 46,
+            "value": 53
+        },
+        "description": "",
+        "url": "http://www.colourlovers.com/color/49886D/snakes_and_dragons",
+        "imageUrl": "http://www.colourlovers.com/img/49886D/100/100/snakes_and_dragons.png",
+        "badgeUrl": "http://www.colourlovers.com/images/badges/c/10285/10285264_snakes_and_dragons.png",
+        "apiUrl": "http://www.colourlovers.com/api/color/49886D"
+    }
+]
